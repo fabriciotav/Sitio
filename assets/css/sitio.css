@@ -1,0 +1,50 @@
+body {
+    padding-top: 60px;
+    background-image: url("/assets/img/bg/subtle-pattern-11.jpg");
+    /*background-image: url("/assets/img/bg/subtle-pattern-10.jpg");*/
+    /*background-image: url("/assets/img/bg/subtle-pattern-7.jpg");*/
+}
+
+img {
+    /*width: 1920px;*/
+    /*height: 600px;*/
+}
+
+footer {
+    margin: 0;
+    padding: 20px 0 60px;
+    position: relative;
+    font-size: 11px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+footer ul {
+    display: inline;
+}
+footer li {
+    display: inline;
+    padding-right: 15px;
+}
+footer a {
+    color: #777;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+footer ul.lesser {
+    border-left: 1px solid #bbb;
+    padding-left: 15px;
+}
+footer ul.lesser a {
+    color: #999;
+}
+footer ul.lesser a:hover {
+    color: #333;
+}
+footer p {
+    color: #777;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
