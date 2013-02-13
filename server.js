@@ -30,7 +30,7 @@ app.all('*', function(req, res, next){
 
 
 app.get('/api/v1/resources', function(req, res) {
-    return res.send({
+    res.send({
         id: 1,
         name: 'Fabricio'
     });
