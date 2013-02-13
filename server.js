@@ -29,14 +29,6 @@ app.all('*', function(req, res, next){
 });
 
 
-app.get('/api/v1/resources', function(req, res) {
-    res.send({
-        id: 1,
-        name: 'Fabricio'
-    });
-});
-
-
 app.get('/', function( req, res) {
     res.render('index');
 });
@@ -61,6 +53,12 @@ app.get('/reservas', function( req, res) {
     res.render('reservas');
 });
 
+app.get('/api/v1/resources', function(req, res) {
+    res.send({
+        id: 1,
+        name: 'Fabricio'
+    });
+});
 
 app.listen(80);
 console.log( "listen on port 80" );
