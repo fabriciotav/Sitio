@@ -53,11 +53,15 @@ app.get('/reservas', function( req, res) {
     res.render('reservas');
 });
 
-app.get('/api/v1/resources', function(req, res) {
+app.get('/api', function(req, res) {
     res.send({
         id: 1,
         name: 'Fabricio'
     });
+});
+
+app.get('/api2', function(req, res) {
+    res.send('fabricio');
 });
 
 app.listen(80);
