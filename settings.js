@@ -1,3 +1,7 @@
+var express;
+
+express = require('express');
+
 exports.routes = function(app) {
 
     app.use(express.static('assets'));
